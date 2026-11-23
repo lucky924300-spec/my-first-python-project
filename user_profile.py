@@ -1,12 +1,11 @@
 print("===== USER PROFILE =====")
 
 name = input("Enter your name: ")
-age = input("Enter your age: ")
-interest = input("Your interest: ")
+while True:
+    age = input("Enter your age: ")
 
-print("\n===== PROFILE =====")
-print("Name:", name)
-print("Age:", age)
-print("Interest:", interest)
-
-print("Profile created successfully!")
+    if age.isdigit():
+        age = int(age)
+        break
+    else:
+        print("Please enter a valid number.")

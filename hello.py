@@ -24,3 +24,14 @@ elif age < 18:
 
 else:
     print("You are an adult.")
+print("My Learning Goals:")
+
+goals = [
+    "Learn AI",
+    "Understand Technology",
+    "Build Projects",
+    "Solve Problems"
+]
+
+for goal in goals:
+    print("-", goal)

@@ -14,7 +14,6 @@ print("Welcome,", name)
 print("Welcome to my learning journey!")
 age = int(input("Enter your age: "))
 
-age = int(input("Enter your age: "))
 
 if age < 13:
     print("You are a child.")

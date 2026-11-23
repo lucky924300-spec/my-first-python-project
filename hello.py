@@ -35,3 +35,9 @@ goals = [
 
 for goal in goals:
     print("-", goal)
+def welcome_message(name):
+    print("Hello,", name)
+    print("Welcome to AI & Technology!")
+
+welcome_message("Lucky")
+welcome_message("Student")
